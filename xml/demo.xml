@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<contacts>
+    <contact sex="M">
+        <name>
+            张三
+        </name>
+        <phone>11111111111</phone>
+    </contact>
+    <contact sex="W">
+        <name>
+            李四
+        </name>
+        <phone>22222222222</phone>
+    </contact>
+    <contact sex="M">
+        <name>
+            王五
+        </name>
+        <phone>44444444444</phone>
+    </contact>
+</contacts>
