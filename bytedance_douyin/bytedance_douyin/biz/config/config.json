@@ -1,0 +1,26 @@
+{
+  "mysql": {
+    "dsn": "root:2515426141@tcp(127.0.0.1:3306)/bytedance_douyin?charset=utf8mb4&parseTime=True&loc=Local"
+  },
+  "redis": {
+    "rdbIp": "127.0.0.1",
+    "rdbPort": "6379"
+  },
+  "JWT": {
+    "stSigningKey": "key",
+    "ExpiresTime": 3000
+  },
+  "MD5": {
+    "salt": "salt"
+  },
+  "ffmpeg": {
+    "exePath": "D:/Program Files/ffmpeg-2023-02-16-git-aeceefa622-essentials_build/bin/ffmpeg.exe"
+  },
+  "feed": {
+    "MaxVideos": 30
+  },
+  "app": {
+    "host": "172.29.219.224",
+    "port": "8888"
+  }
+}
