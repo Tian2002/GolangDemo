@@ -1,0 +1,76 @@
+[INFO][server.go:24] 2023/09/24 17:47:29 开始监听端口 0.0.0.0:6379
+[INFO][server.go:60] 2023/09/24 17:47:36 开始监听
+[INFO][echo.go:51] 2023/09/24 17:48:14 echo客服端连接关闭
+[INFO][server.go:31] 2023/09/24 17:48:20 系统向程序发送了一个关闭信号： interrupt
+[INFO][server.go:42] 2023/09/24 17:48:20 正在关闭程序
+[INFO][server.go:57] 2023/09/24 17:48:20 accept tcp [::]:6379: use of closed network connection
+[INFO][echo.go:65] 2023/09/24 17:48:20 业务正在关闭
+[INFO][server.go:24] 2023/09/24 20:02:32 开始监听端口 0.0.0.0:6379
+[INFO][server.go:60] 2023/09/24 20:02:44 开始监听
+[ERROR][handler.go:85] 2023/09/24 20:02:59 require multi bulk reply
+[ERROR][handler.go:85] 2023/09/24 20:05:11 require multi bulk reply
+[INFO][echo_database.go:22] 2023/09/24 20:05:37 EchoDatabase AfterClientClose
+[INFO][handler.go:66] 2023/09/24 20:05:37 connection closed: 127.0.0.1:53933
+[INFO][server.go:31] 2023/09/24 20:09:12 系统向程序发送了一个关闭信号： interrupt
+[INFO][server.go:42] 2023/09/24 20:09:12 正在关闭程序
+[INFO][server.go:57] 2023/09/24 20:09:12 accept tcp [::]:6379: use of closed network connection
+[INFO][handler.go:99] 2023/09/24 20:09:12 handler shutting down...
+[INFO][echo_database.go:26] 2023/09/24 20:09:12 EchoDatabase Close
+[INFO][server.go:24] 2023/09/24 20:13:31 开始监听端口 0.0.0.0:6379
+[INFO][server.go:60] 2023/09/24 20:13:51 开始监听
+[ERROR][parser.go:45] 2023/09/24 20:14:45 goroutine 19 [running]:
+runtime/debug.Stack()
+	D:/software/depend/go/src/runtime/debug/stack.go:24 +0x65
+gedis/resp/parser.parse0.func1()
+	D:/workspace/golang/LearningRecord/imooc576/gedis/resp/parser/parser.go:45 +0x2a
+panic({0xb89720, 0xc00020a000})
+	D:/software/depend/go/src/runtime/panic.go:884 +0x213
+gedis/resp/parser.readLine(0xc000204028?, 0xc0000a9f10?)
+	D:/workspace/golang/LearningRecord/imooc576/gedis/resp/parser/parser.go:154 +0x257
+gedis/resp/parser.parse0({0x1f82b383fc8?, 0xc000094000?}, 0x0?)
+	D:/workspace/golang/LearningRecord/imooc576/gedis/resp/parser/parser.go:55 +0x20a
+created by gedis/resp/parser.ParseStream
+	D:/workspace/golang/LearningRecord/imooc576/gedis/resp/parser/parser.go:24 +0x98
+
+[INFO][server.go:31] 2023/09/24 20:17:58 系统向程序发送了一个关闭信号： interrupt
+[INFO][server.go:42] 2023/09/24 20:17:58 正在关闭程序
+[INFO][handler.go:99] 2023/09/24 20:17:58 handler shutting down...
+[INFO][echo_database.go:26] 2023/09/24 20:17:58 EchoDatabase Close
+[INFO][server.go:24] 2023/09/24 20:18:20 开始监听端口 0.0.0.0:6379
+[INFO][server.go:31] 2023/09/24 20:18:23 系统向程序发送了一个关闭信号： interrupt
+[INFO][server.go:42] 2023/09/24 20:18:23 正在关闭程序
+[INFO][server.go:57] 2023/09/24 20:18:23 accept tcp [::]:6379: use of closed network connection
+[INFO][handler.go:99] 2023/09/24 20:18:23 handler shutting down...
+[INFO][echo_database.go:26] 2023/09/24 20:18:23 EchoDatabase Close
+[INFO][server.go:24] 2023/09/24 20:18:28 开始监听端口 0.0.0.0:6379
+[INFO][server.go:60] 2023/09/24 20:18:36 开始监听
+[INFO][echo_database.go:22] 2023/09/24 20:18:42 EchoDatabase AfterClientClose
+[INFO][handler.go:66] 2023/09/24 20:18:42 connection closed: 127.0.0.1:55662
+[INFO][server.go:31] 2023/09/24 21:06:32 系统向程序发送了一个关闭信号： interrupt
+[INFO][server.go:42] 2023/09/24 21:06:32 正在关闭程序
+[INFO][server.go:57] 2023/09/24 21:06:32 accept tcp [::]:6379: use of closed network connection
+[INFO][handler.go:99] 2023/09/24 21:06:32 handler shutting down...
+[INFO][echo_database.go:26] 2023/09/24 21:06:32 EchoDatabase Close
+[INFO][server.go:24] 2023/09/24 21:21:36 开始监听端口 0.0.0.0:6379
+[INFO][server.go:60] 2023/09/24 21:21:40 开始监听
+[ERROR][handler.go:85] 2023/09/24 21:23:31 require multi bulk reply
+[INFO][server.go:31] 2023/09/24 21:23:53 系统向程序发送了一个关闭信号： interrupt
+[INFO][server.go:42] 2023/09/24 21:23:53 正在关闭程序
+[INFO][handler.go:99] 2023/09/24 21:23:53 handler shutting down...
+[INFO][echo_database.go:26] 2023/09/24 21:23:53 EchoDatabase Close
+[INFO][echo_database.go:22] 2023/09/24 21:23:53 EchoDatabase AfterClientClose
+[INFO][handler.go:66] 2023/09/24 21:23:53 connection closed: 127.0.0.1:61472
+[INFO][server.go:57] 2023/09/24 21:23:53 accept tcp [::]:6379: use of closed network connection
+[INFO][handler.go:99] 2023/09/24 21:23:53 handler shutting down...
+[INFO][echo_database.go:26] 2023/09/24 21:23:53 EchoDatabase Close
+[INFO][server.go:24] 2023/09/24 21:53:26 开始监听端口 0.0.0.0:6379
+[INFO][server.go:60] 2023/09/24 21:53:40 开始监听
+[INFO][echo_database.go:22] 2023/09/24 21:58:38 EchoDatabase AfterClientClose
+[INFO][handler.go:65] 2023/09/24 21:58:38 connection closed: 127.0.0.1:51271
+[INFO][server.go:31] 2023/09/24 22:19:40 系统向程序发送了一个关闭信号： terminated
+[INFO][server.go:42] 2023/09/24 22:19:40 正在关闭程序
+[INFO][handler.go:98] 2023/09/24 22:19:40 handler shutting down...
+[INFO][echo_database.go:26] 2023/09/24 22:19:40 EchoDatabase Close
+[INFO][server.go:57] 2023/09/24 22:19:40 accept tcp [::]:6379: use of closed network connection
+[INFO][handler.go:98] 2023/09/24 22:19:40 handler shutting down...
+[INFO][echo_database.go:26] 2023/09/24 22:19:40 EchoDatabase Close

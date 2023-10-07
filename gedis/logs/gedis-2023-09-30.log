@@ -1,0 +1,72 @@
+[INFO][server.go:24] 2023/09/30 19:41:40 开始监听端口 0.0.0.0:6379
+[INFO][server.go:22] 2023/09/30 19:42:06 监听端口 0.0.0.0:6379 失败
+[INFO][server.go:24] 2023/09/30 19:42:06 开始监听端口 0.0.0.0:6379
+[INFO][server.go:22] 2023/09/30 19:42:16 监听端口 0.0.0.0:6379 失败
+[INFO][server.go:24] 2023/09/30 19:42:16 开始监听端口 0.0.0.0:6379
+[INFO][server.go:22] 2023/09/30 19:43:11 监听端口 0.0.0.0:6379 失败
+[INFO][server.go:24] 2023/09/30 19:43:11 开始监听端口 0.0.0.0:6379
+[INFO][server.go:31] 2023/09/30 19:43:18 系统向程序发送了一个关闭信号： interrupt
+[INFO][server.go:42] 2023/09/30 19:43:18 正在关闭程序
+[INFO][server.go:57] 2023/09/30 19:43:18 accept tcp [::]:6379: use of closed network connection
+[INFO][handler.go:106] 2023/09/30 19:43:18 handler shutting down...
+[INFO][server.go:24] 2023/09/30 19:43:21 开始监听端口 0.0.0.0:6379
+[INFO][server.go:31] 2023/09/30 19:43:44 系统向程序发送了一个关闭信号： interrupt
+[INFO][server.go:42] 2023/09/30 19:43:44 正在关闭程序
+[INFO][server.go:57] 2023/09/30 19:43:44 accept tcp [::]:6379: use of closed network connection
+[INFO][handler.go:106] 2023/09/30 19:43:44 handler shutting down...
+[INFO][server.go:24] 2023/09/30 19:43:55 开始监听端口 0.0.0.0:6379
+[INFO][server.go:31] 2023/09/30 19:44:07 系统向程序发送了一个关闭信号： interrupt
+[INFO][server.go:42] 2023/09/30 19:44:07 正在关闭程序
+[INFO][server.go:57] 2023/09/30 19:44:07 accept tcp [::]:6379: use of closed network connection
+[INFO][handler.go:106] 2023/09/30 19:44:07 handler shutting down...
+[INFO][server.go:24] 2023/09/30 19:44:09 开始监听端口 0.0.0.0:6379
+[INFO][server.go:31] 2023/09/30 19:44:13 系统向程序发送了一个关闭信号： terminated
+[INFO][server.go:42] 2023/09/30 19:44:13 正在关闭程序
+[INFO][server.go:57] 2023/09/30 19:44:13 accept tcp [::]:6379: use of closed network connection
+[INFO][handler.go:106] 2023/09/30 19:44:13 handler shutting down...
+[INFO][server.go:24] 2023/09/30 19:44:17 开始监听端口 0.0.0.0:6379
+[INFO][server.go:22] 2023/09/30 19:44:51 监听端口 0.0.0.0:6379 失败
+[INFO][server.go:24] 2023/09/30 19:44:51 开始监听端口 0.0.0.0:6379
+[INFO][server.go:31] 2023/09/30 19:45:13 系统向程序发送了一个关闭信号： interrupt
+[INFO][server.go:42] 2023/09/30 19:45:13 正在关闭程序
+[INFO][server.go:57] 2023/09/30 19:45:13 accept tcp [::]:6379: use of closed network connection
+[INFO][handler.go:106] 2023/09/30 19:45:13 handler shutting down...
+[INFO][server.go:24] 2023/09/30 19:45:17 开始监听端口 0.0.0.0:6380
+[INFO][server.go:24] 2023/09/30 19:45:59 开始监听端口 0.0.0.0:6379
+[INFO][server.go:60] 2023/09/30 19:47:06 开始监听
+[ERROR][parser.go:46] 2023/09/30 19:47:35 goroutine 18 [running]:
+runtime/debug.Stack()
+	D:/software/depend/go/src/runtime/debug/stack.go:24 +0x65
+gedis/resp/parser.parse0.func1()
+	D:/workspace/golang/LearningRecord/imooc576/gedis/resp/parser/parser.go:46 +0x2a
+panic({0xdedce0, 0xc00029a018})
+	D:/software/depend/go/src/runtime/panic.go:884 +0x213
+gedis/resp/parser.readLine(0xc000292078?, 0xc00013df10?)
+	D:/workspace/golang/LearningRecord/imooc576/gedis/resp/parser/parser.go:155 +0x257
+gedis/resp/parser.parse0({0x1daf2da0008?, 0xc00000a070?}, 0x0?)
+	D:/workspace/golang/LearningRecord/imooc576/gedis/resp/parser/parser.go:56 +0x20a
+created by gedis/resp/parser.ParseStream
+	D:/workspace/golang/LearningRecord/imooc576/gedis/resp/parser/parser.go:34 +0x98
+
+[INFO][server.go:31] 2023/09/30 19:48:34 系统向程序发送了一个关闭信号： interrupt
+[INFO][server.go:42] 2023/09/30 19:48:34 正在关闭程序
+[INFO][server.go:57] 2023/09/30 19:48:34 accept tcp [::]:6379: use of closed network connection
+[INFO][handler.go:106] 2023/09/30 19:48:34 handler shutting down...
+[INFO][server.go:24] 2023/09/30 19:48:34 开始监听端口 0.0.0.0:6379
+[INFO][server.go:31] 2023/09/30 19:48:41 系统向程序发送了一个关闭信号： interrupt
+[INFO][server.go:42] 2023/09/30 19:48:41 正在关闭程序
+[INFO][server.go:57] 2023/09/30 19:48:41 accept tcp [::]:6380: use of closed network connection
+[INFO][handler.go:106] 2023/09/30 19:48:41 handler shutting down...
+[INFO][server.go:24] 2023/09/30 19:49:46 开始监听端口 0.0.0.0:6380
+[INFO][server.go:60] 2023/09/30 19:50:09 开始监听
+[INFO][handler.go:73] 2023/09/30 19:50:10 connection closed: 127.0.0.1:58764
+[INFO][server.go:60] 2023/09/30 19:50:25 开始监听
+[INFO][server.go:31] 2023/09/30 19:52:02 系统向程序发送了一个关闭信号： interrupt
+[INFO][server.go:42] 2023/09/30 19:52:02 正在关闭程序
+[INFO][server.go:57] 2023/09/30 19:52:02 accept tcp [::]:6379: use of closed network connection
+[INFO][handler.go:106] 2023/09/30 19:52:02 handler shutting down...
+[INFO][handler.go:73] 2023/09/30 19:52:20 connection closed: 127.0.0.1:58793
+[INFO][server.go:31] 2023/09/30 19:52:22 系统向程序发送了一个关闭信号： terminated
+[INFO][server.go:42] 2023/09/30 19:52:22 正在关闭程序
+[INFO][server.go:57] 2023/09/30 19:52:22 accept tcp [::]:6380: use of closed network connection
+[INFO][handler.go:106] 2023/09/30 19:52:22 handler shutting down...

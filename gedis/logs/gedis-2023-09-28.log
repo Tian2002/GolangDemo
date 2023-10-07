@@ -1,0 +1,15 @@
+[INFO][server.go:24] 2023/09/28 19:32:23 开始监听端口 0.0.0.0:6379
+[INFO][server.go:60] 2023/09/28 19:32:25 开始监听
+[INFO][server.go:31] 2023/09/28 20:06:15 系统向程序发送了一个关闭信号： interrupt
+[INFO][server.go:42] 2023/09/28 20:06:15 正在关闭程序
+[INFO][server.go:57] 2023/09/28 20:06:15 accept tcp [::]:6379: use of closed network connection
+[INFO][handler.go:98] 2023/09/28 20:06:15 handler shutting down...
+[INFO][handler.go:65] 2023/09/28 20:06:15 connection closed: 127.0.0.1:59879
+[INFO][handler.go:98] 2023/09/28 20:06:15 handler shutting down...
+[INFO][server.go:24] 2023/09/28 20:23:48 开始监听端口 0.0.0.0:6379
+[INFO][server.go:60] 2023/09/28 20:23:55 开始监听
+[INFO][handler.go:65] 2023/09/28 20:28:55 connection closed: 127.0.0.1:52894
+[INFO][server.go:31] 2023/09/28 20:28:59 系统向程序发送了一个关闭信号： interrupt
+[INFO][server.go:42] 2023/09/28 20:28:59 正在关闭程序
+[INFO][server.go:57] 2023/09/28 20:28:59 accept tcp [::]:6379: use of closed network connection
+[INFO][handler.go:98] 2023/09/28 20:28:59 handler shutting down...

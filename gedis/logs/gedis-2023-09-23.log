@@ -1,0 +1,7 @@
+[INFO][server.go:23] 2023/09/23 16:35:08 开始监听端口 0.0.0.0:6379
+[INFO][server.go:59] 2023/09/23 16:35:29 开始监听
+[INFO][echo.go:51] 2023/09/23 16:36:06 echo客服端连接关闭
+[INFO][server.go:30] 2023/09/23 16:37:14 系统向程序发送了一个关闭信号： interrupt
+[INFO][server.go:41] 2023/09/23 16:37:14 正在关闭程序
+[INFO][server.go:56] 2023/09/23 16:37:14 accept tcp [::]:6379: use of closed network connection
+[INFO][echo.go:65] 2023/09/23 16:37:14 业务正在关闭
